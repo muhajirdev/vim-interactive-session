@@ -5,3 +5,9 @@ func learnVim(some int, another bool) {
 	j := 2 + 2
 	k := 3 + 3
 }
+
+func anotherFunc(some int, another bool) {
+	i := 1 + 1
+	j := 2 + 2
+	k := 3 + 3
+}

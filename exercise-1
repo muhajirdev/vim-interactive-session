@@ -1,0 +1,82 @@
+// Let's learn how to walk
+
+// j -> up
+// k -> down
+
+// lets try to build the muscle memory
+
+This is some text here, we'll try to move around
+This is another text
+I am text too
+
+
+// h -> left
+// l -> right
+
+// let's try again
+
+This is some text here, we'll try to move around
+This is another text
+I am text too
+
+
+// inserting some text
+// press `i`
+
+// turn into "Hello world"
+Hello 
+
+
+// go back to normal mode, press `ESC`
+
+// Let's delete this line
+// press `dd`
+
+Hello world
+
+
+// let's experiment with this function
+
+
+// 1. Remove this function body. inside the function press `di{` 
+(d)elete (i)inside {
+
+// try to remove all the params `di(` (delete) (i)inside (
+
+func learnVim(some int, another bool) {
+    i := 1 + 1
+    j := 2 + 2
+    k := 3 + 3
+}
+
+// press `u` to undo
+// now let's try with `da{` instead of `di{`. See the differences
+
+// let's try with html tag. `dit` and `dat`
+<something>aaaa</something>
+
+
+// with nested html. Try experimenting with `dit` and `dat`
+<html><body><head>somehead</head><body><h1>aaa</h1></body></html>
+
+// we can also change the tag for example from <h1> to <h2>, from <body> into <badi> . We'll try it later in VSCode
+
+
+
+// Paste it. There's no such thing as "delete" in vim. It's actually "cut"
+// now press `p`
+
+// let's try copy. press `yy`. And press `p`
+I am a line copy me and paste below me
+
+// motion and object in vim, try yw, yb, yiw, yi{, ya{, 
+
+// next occurante with * and #
+
+I am a word in the middle of sentences
+and I am another word
+see the word 'word'? you can go move to the next word
+
+
+other tips: f<char>, F<char>, $, 0, gg, G
+

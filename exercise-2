@@ -1,0 +1,53 @@
+We're trying to combine vim and vscode
+cmd + click this link https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
+and click install
+
+
+Let's try the vim movement again , hjkl, 
+
+// try `dst`
+<html> some html here </html>
+
+// try `cst <body>` 
+<html> some html here </html>
+
+// try to press `ds{` inside this block
+{
+    some text here. 
+}
+
+
+// try to press `cs{(` inside this block
+{ 
+    some text here. 
+}
+
+// cs"'
+"some string with double quote"
+
+// operate by indent. For example python code
+
+// visual mode press v
+
+// press dii, dai, daI
+for i in words: 
+    if len(i) >= 3:
+        i = i + z
+        print i
+    else:
+        pass
+
+// delete a function, press daI
+func test() {
+	print("aa")
+	print("aa")
+}
+
+
+// we can still use vscode feature
+
+for example :
+- cmd  d -> multi cursor
+- ctrl -  -> move to last location
+- syntax highlight still works
+
